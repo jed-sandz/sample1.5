@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create a NodeJS app - Hello World (ReactJS Framework)
 
-## Available Scripts
+1. Install NodeJS on your machine (https://nodejs.org/en/). Download the LTS(Long Term Support) version as this is the most stable version.
 
-In the project directory, you can run:
+![](images/NodeJSInstallation.JPG)
 
-### `npm start`
+2. Install the downloaded file.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Open your terminal and type "npm -v". This should show the version number of Node package and that NodeJS has been successfully installed.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![](images/Npmv.JPG)
 
-### `npm test`
+4. Since ReactJS runs on a NodeJS environment, we will use this as the front-end framework. Other famous frontend NodeJS frameworks include VueJS and AngularJS .ReactJS is a great framework to develop dynamic web apps, reusable components, faster rendering, flawless DOM manipulation using bootstrap applications and packages, great documentation and a helpful community. This is developed and maintained by Facebook, Inc.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](images/ReactJS.JPG)
 
-### `npm run build`
+5. On your Command Line (Terminal/GitBash/or Visual Studio Code), under your desired path directory, type "create-react-app" or "npx create-react-app new_project". This will download and install packages needed for the React app. It may take a while but the prompt that the packages has been successfully installed will be "Happy hacking!".
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](images/NpxCreateReactApp.JPG)
+![](images/HappyHacking.JPG)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+6. On your Command Line, go to the path diretory of the created react app folder (in this case, the new_project folder) and type "npm start" to start the NodeJS server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](images/Npmstart.JPG)
 
-### `npm run eject`
+7. After doing npm start, this will automatically pop up your browser redirecting you to localhost:3000. This is the local server address for node. The React logo be shown as the default web page. Note: you can stop running the web server by pressing Ctrl+C or Command+C -- this will also stop the page load on the localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![](images/Localhost3000.JPG)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. Pull up your text/code editor (Visual Studio Code/Sublime Text, etc.) on the path directory your react app is in.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+8. Modify App.js (e.g. create a <p> tag and enclosed a string--"Hello World" within a div) to return a string of "Hello World!".
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![](images/HelloWorld.JPG)
 
-## Learn More
+9. Save the text editor file(.html, .js, .css)as per your desired front end layout. This will automatically refresh the browser at localhost:3000 to reflect your changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![](images/HelloWorldLocalHost3000.JPG)
