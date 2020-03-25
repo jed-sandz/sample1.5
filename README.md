@@ -14,7 +14,7 @@ Create a NodeJS app - Hello World (ReactJS Framework)
 
 ![](images/ReactJS.JPG)
 
-5. On your Command Line (Terminal/GitBash/or Visual Studio Code), under your desired path directory, type "create-react-app" or "npx create-react-app new_project". This will download and install packages needed for the React app. It may take a while but the prompt that the packages has been successfully installed will be "Happy hacking!".
+5. On your Command Line (Terminal/GitBash/or Visual Studio Code), under your desired path directory, type "create-react-app new_project" or "npx create-react-app new_project". This will download and install packages needed for the React app. It may take a while but the prompt that the packages has been successfully installed will be "Happy hacking!".
 
 ![](images/NpxCreateReactApp.JPG)
 ![](images/HappyHacking.JPG)
@@ -36,3 +36,23 @@ Create a NodeJS app - Hello World (ReactJS Framework)
 9. Save the text editor file(.html, .js, .css)as per your desired front end layout. This will automatically refresh the browser at localhost:3000 to reflect your changes.
 
 ![](images/HelloWorldLocalHost3000.JPG)
+
+
+########################
+Cloning this repository
+########################
+1. Go to Sandz DO main Github page at https://github.com/sandzkube.
+
+2. Proceed to the nodejs-hello world-react repo at https://github.com/sandzkube/hello-nodejs-reactjs.
+
+3. On the repo's main page, click "Clone or download" button and copy the web URL.
+
+![](images/Cloning.png)
+
+4. On your Command Line (Terminal/GitBash/or Visual Studio Code), under your desired path directory, type "git clone <Web URL of repo>" and wait for the contents to download.
+
+5. On your Command Line, go to the path diretory of the created react app folder (in this case, the new_project folder) and type "npm start" to start the NodeJS server.
+
+![](images/Npmstart.JPG)
+
+*Note: you cannot run this when you have not gone through step #5 above on Creating a NodeJS app as running this on npm start will require the node_modules packages. Directly cloning this from the repo will not download the node_modules package.
